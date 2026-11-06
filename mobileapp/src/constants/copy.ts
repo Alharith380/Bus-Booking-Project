@@ -1,0 +1,17 @@
+export const Copy = {
+  appName: 'درب',
+  welcome: 'أهلًا بك في درب',
+  search: 'ابحث عن رحلتك القادمة',
+  from: 'من',
+  to: 'إلى',
+  departure: 'تاريخ السفر',
+  searchTrips: 'ابحث عن رحلات',
+  myBookings: 'حجوزاتي',
+  profile: 'حسابي',
+  login: 'تسجيل الدخول',
+  register: 'إنشاء حساب',
+  continue: 'متابعة',
+  retry: 'حاول مرة أخرى',
+  noResults: 'لا توجد رحلات مطابقة',
+  currency: 'ر.س',
+} as const;
