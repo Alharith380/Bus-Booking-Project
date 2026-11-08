@@ -3,6 +3,10 @@ node_modules/
 .pnp
 .pnp.*
 .yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # Build output
 dist/
@@ -12,6 +16,7 @@ out/
 .expo/
 coverage/
 *.tsbuildinfo
+next-env.d.ts
 
 # Environment files
 .env
@@ -34,3 +39,6 @@ Thumbs.db
 
 # Vercel
 .vercel
+
+# Nested clone of this same repository (not part of this project)
+Bus-Booking-Project/
